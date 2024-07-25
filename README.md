@@ -24,9 +24,6 @@ Here is link of [Google Colab Notebook](https://)
     * GGUF Conversion
     * Downloading Saved Model
 
-Here's the formatted text with headings and proper structure:
-
----
 
 ## Chatting With Fine-Tuned Model Using Ollama
 
