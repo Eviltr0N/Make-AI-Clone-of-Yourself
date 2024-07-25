@@ -1,6 +1,6 @@
 # Make-AI-Clone-of-Yourself
 
-### Motivation
+## Motivation
 
 I saw a reel on Instagram in which an AI enthusiast created an AI clone of himself to talk to his girlfriend (Certainly, I won't do that... xd) using [RAG](https://youtu.be/YVWxbHJakgg?feature=shared) Retrieval Augmented Generation and the Chat GPT-3.5 turbo API. It kind of worked, but it had major privacy issues. Sending personal chats to Chat GPT could potentially result in those chats being used by OpenAI to train its model. This led me to think, what if I fine-tuned a pre-existing model like Llama or Mixtral on my personal WhatsApp chat history? It would be cool to have a model that can talk like me as I do on WhatsApp, primarily in Hinglish (Hindi + English).
 
@@ -10,7 +10,7 @@ Another important aspect is that the fine-tuning results heavily depend on the q
 
 Let's see how it looks in reality and how it's being carried out.
 
-### Google Colab Notebook
+## Google Colab Notebook
 
 Here is link of [Google Colab Notebook](https://)
 
@@ -28,12 +28,12 @@ Here's the formatted text with headings and proper structure:
 
 ---
 
-### Chatting With Fine-Tuned Model Using Ollama
+## Chatting With Fine-Tuned Model Using Ollama
 
-#### Downloading Ollama
+### Downloading Ollama
 Go to the [downloads page of Ollama](https://ollama.com/download) and download and install it according to your OS.
 
-#### Loading the Model into Ollama
+### Loading the Model into Ollama
 1. Open your file manager.
 2. Navigate to the directory where you have downloaded the fine-tuned model, generally the Downloads folder.
 3. Right-click anywhere on the screen and choose "Open terminal here." If you are using Windows, you can directly type `cmd` into the address bar and hit enter.
@@ -45,7 +45,7 @@ Go to the [downloads page of Ollama](https://ollama.com/download) and download a
 9. Now type `ollama run my_model`.
 10. You can now chat with your model.
 
-### Using Model to Automate WhatsApp
+## Using Model to Automate WhatsApp
 Here comes the final part. I am using this wonderful tool [WPP_Whatsapp](https://github.com/3mora2/WPP_Whatsapp) to automate WhatsApp. By using this, we can use our model to respond to any incoming messages on WhatsApp. We can define specific people to talk to. Here is the step-by-step guide:
 
 1. Clone this repo using:
@@ -68,7 +68,7 @@ Here comes the final part. I am using this wonderful tool [WPP_Whatsapp](https:/
 8. The phone number must include the country code without the `+` symbol, such as `916969696969`, then press enter.
 9. As soon as that person sends any message, it will be printed on the terminal, and the AI model will respond to it.
 
-#### Keep in Mind
+### Keep in Mind
 * If you want to change the temperature and top_k of the model (in simpler terms, temperature means creativity of the model), then:
     1. Open the `ai_to_whatsapp.py` file using any text editor.
     2. Go to the 9th line where you will find:
@@ -78,6 +78,6 @@ Here comes the final part. I am using this wonderful tool [WPP_Whatsapp](https:/
     4. You can also change top_k from `50` to a higher value like `95`.
 
 * Temperature can vary from `0.1` to `1` and top_k from `1` to `100`. The higher the temperature, the more creative and unpredictable the model becomes.
-* Keep playing with the values of temperature and top_k until you are satisfied with the model's responses.
+* Keep playing with the values of `temperature` and `top_k` until you are satisfied with the model's responses.
 
 
