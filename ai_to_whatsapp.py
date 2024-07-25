@@ -4,6 +4,8 @@ import logging
 import csv
 from chat import LLM
 
+#========LLM(Model_name, temperature, top_k, max_tokens)
+
 my_llm = LLM("my_model", 0.3, 50, 128)
 
 # logger = logging.getLogger(name="WPP_Whatsapp")
