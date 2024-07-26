@@ -81,3 +81,7 @@ Here comes the final part. I am using this wonderful tool [WPP_Whatsapp](https:/
 * Keep playing with the values of `temperature` and `top_k` until you are satisfied with the model's responses.
 
 
+## What's Next
+* Adding multimodal capabilities so this can understand and react to images too, as it currently supports only text messages.
+
+* Adding some sort of agent pipeline above this model so another model, such as `LLaMA 3.1`, can see the message and the response of this model and judge if it is suitable or not, and can modify the model response accordingly.
