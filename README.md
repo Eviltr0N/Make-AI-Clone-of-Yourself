@@ -51,19 +51,22 @@ Here comes the final part. I am using this wonderful tool [WPP_Whatsapp](https:/
 2. Go to the cloned repo:
     `cd Make-AI-Clone-of-Yourself/`
 
-3. First run:
+3. Install all the required packages by:
+    `pip install -r requirements.txt`
+
+4. First run:
     `python3 chat.py`
 
    Then type something like "Hello" and hit enter. If it works, it means everything is set up correctly.
 
-4. Exit by pressing `Ctrl+C`.
-5. Now run:
+5. Exit by pressing `Ctrl+C`.
+6. Now run:
     `python3 ai_to_whatsapp.py`
 
-6. It will take a bit of time at first to download the Chromium browser. As it finishes, a browser window will appear, and you have to scan the QR code using WhatsApp to link your WhatsApp account.
-7. Switch back to the terminal. You have to provide the phone number of the other person you want to respond to with this AI model.
-8. The phone number must include the country code without the `+` symbol, such as `916969696969`, then press enter.
-9. As soon as that person sends any message, it will be printed on the terminal, and the AI model will respond to it.
+7. It will take a bit of time at first to download the Chromium browser. As it finishes, a browser window will appear, and you have to scan the QR code using WhatsApp to link your WhatsApp account.
+8. Switch back to the terminal. You have to provide the phone number of the other person you want to respond to with this AI model.
+9. The phone number must include the country code without the `+` symbol, such as `916969696969`, then press enter.
+10. As soon as that person sends any message, it will be printed on the terminal, and the AI model will respond to it.
 
 ### Keep in Mind
 * If you want to change the temperature and top_k of the model (in simpler terms, temperature means creativity of the model), then:
