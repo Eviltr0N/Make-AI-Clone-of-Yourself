@@ -12,7 +12,7 @@ Let's see how it looks in reality and how it's being carried out.
 
 ## Google Colab Notebook
 
-Here is link of [Google Colab Notebook](https://)
+Here is link of [Google Colab Notebook](https://colab.research.google.com/drive/1OGkiAZsYfShY0o8ZphCUuXkmb2Om422X?usp=sharing)
 
 * This Notebook Contains - 
     * Data Collection From Whatsapp
