@@ -58,7 +58,7 @@ creator.client.ThreadsafeBrowser.page_evaluate_sync("""
 
 
 
-ph_number = input("Enter Ph. No. with Countary code: ")
+ph_number = input("Enter Ph. No. with Country code: ")
 while len(ph_number) < 12:
     ph_number = input("WITH Countary Code: ")
 
