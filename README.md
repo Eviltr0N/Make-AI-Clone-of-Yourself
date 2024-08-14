@@ -27,7 +27,7 @@ Here is link of [Google Colab Notebook](https://colab.research.google.com/drive/
     * Downloading Saved Model
 
 
-## Chatting With Fine-Tuned Model Using Ollama
+## Chatting With Fine-Tuned Model Using Ollama (You can also use [LM Studio](https://lmstudio.ai/) & [GPT4ALL](https://www.nomic.ai/gpt4all))
 
 ### Downloading Ollama
 Go to the [downloads page of Ollama](https://ollama.com/download) and download and install it according to your OS.
